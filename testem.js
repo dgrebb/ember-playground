@@ -6,6 +6,12 @@ module.exports = {
   launch_in_ci: ['Chrome'],
   launch_in_dev: ['Chrome'],
   browser_start_timeout: 120,
+  proxies: {
+    '/backstop': {
+      target: 'http://localhost:3000',
+      secure: false,
+    },
+  },
   browser_args: {
     Chrome: {
       ci: [

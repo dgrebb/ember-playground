@@ -23,3 +23,7 @@
 
 # broccoli-debug
 /DEBUG/
+
+#backstopjs
+html_report
+bitmaps_test
