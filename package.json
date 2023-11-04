@@ -1,11 +1,11 @@
 {
-  "name": "ember-quickstart",
-  "version": "0.0.0",
+  "name": "ember-playground",
+  "version": "0.0.1",
   "private": true,
-  "description": "Small description for ember-quickstart goes here",
+  "description": "This is a simple playground to test ember plugins.",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "dgrebb",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -36,6 +36,7 @@
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^8.2.1",
     "ember-auto-import": "^2.6.3",
+    "ember-backstop": "github:dgrebb/ember-backstop#feature/backstop-6.3.0",
     "ember-cli": "~5.3.0",
     "ember-cli-app-version": "^6.0.1",
     "ember-cli-babel": "^8.0.0",
@@ -68,6 +69,7 @@
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-prettier": "^4.0.2",
+    "testem": "^3.10.1",
     "tracked-built-ins": "^3.2.0",
     "webpack": "^5.88.2"
   },
